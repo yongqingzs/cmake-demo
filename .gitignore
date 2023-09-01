@@ -1,1 +1,11 @@
 build/
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+**.exe
+**.a
+**.dll
+**.cmake
+_CPack_Packages
+**.tar.bz2
