@@ -23,8 +23,10 @@ set (EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 - bin是可执行文件的名字，source是源文件名（可以以变量名替代）
 2. aux_source_directory(dir var): 将指定目录dir下的源文件名存入变量名var中
 - dir是指定目录，var是变量名
+- NOTE: 必须每个目录分别添加
 3. set(var source): 将指定源文件名存入变量名var中
 - var是变量名，source是源文件名
 4. add_subdirectory: 用于向当前项目中添加一个子目录，并在该子目录中执行另一个CMakeLists.txt文件
 5. include_directories(dir): 将指定目录dir下的头文件添加到搜索路径中
+- NOTE: 无需每个目录分别添加，可一起添加
 
